@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*degradado de color para la img que va de bajo del menu*/
+header {
+    height: 100vh;
+    /*colores pantone 533c- nestle pantone 2925cp, con degradado de 50%*/
+    background-image: linear-gradient(to top, rgba(32, 42, 68, 0.5)0%, rgba(60, 161, 213, 0.5)100%), url(../IMAGENES/corona1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+/*txt dentro de la img que esta de bajo del menu/inicio*/
+.head {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}

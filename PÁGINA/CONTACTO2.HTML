@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Corona</title>
+    <link rel="shortcut icon" href="IMAGENES/ce.jpeg" type="image/x-icon">
+     <!--link de scrip (pagina) glider.js este es el url LIBRERIA 1.7.3-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="stylesheet" href="css/estilos_m.css">
+    <link rel="stylesheet" href="css/estilos_prod2.css">
+    <link rel="stylesheet" type="text/css" href="CSS/estilos_pro.css">
+    <link rel="stylesheet" type="text/css" href="css/contacto.css">
+   
+<!--codigo para animaciones en las cajas-->
+   <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">-->
+
+   
+</head>
+
+    <header>
+        <nav>
+            <section class="contenedor nav">
+                <div class="logo">
+                    <img src="IMAGENES/cerveza1.JPG" alt="">
+                </div>
+                <div class="enlaces-header">
+                    <a href="index.html">Inicio</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="#">Informes</a>
+                    <a href="CONTACTO2.HTML">Contacto</a>
+                </div>
+<!--esto sirve para el icono que se ve cuando estas en un celular-->
+                <div class="hamburguer">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </section>
+        </nav>
+
+        
+    </header>
+
+
+<!--FORMULARIO-->
+<div class="contenedor">
+        <form action="php/enviar.php" class="form" method="post">
+            <div class="form-header">
+                <h1 class="form-title">C<span>ontacto</span></h1>
+            </div>
+
+            <label for="name" class="form-label">NOMBRE COMPLETO:</label>
+            <input type="text"  id="name" class="form-input" placeholder="Escriba su nombre" name="nombre" required>
+
+            <label for="phone" class="form-label"> TELEFONO :</label>
+            <input type="text"  id="phone" class="form-input" placeholder="Escriba su telefono" name="telefono" required>
+
+            <label for="email" class="form-label"> CORREO ELECTRONICO :</label>
+            <input type="text" id="email" class="form-input" placeholder="Escriba su correo electronico" name="correo" required>
+
+            <label for="mensaje" class="form-label">MENSAJE:</label>
+            <textarea type="text" id="mensaje" class="form-input" placeholder="Escriba el mensaje" name="mensaje" required></textarea> 
+
+            <input type="submit" id="btnSend " class="btn-submit" value="ENVIAR MENSAJE" >
+
+
+        </form>
+    </div>
+
+
+<!---->
+
+
+<br> </br>
+<footer id="contacto">
+    <div class="contenedor footer-content">
+        <div class="contact-us">
+            <h2 class="brand"> DISTRIBUIDORA ATIZAPÁN</h2>
+            <p>CORONA</p>
+            <br><br>
+        </div>  
+           <div class="social-media">
+          <a href="#" class="social-media-icon">
+            <i class='bx bx1-facebook'></i>
+          </a>
+          <a href="#" class="social-media-icon">
+            <i class='bx bx1-instagram'></i>
+          </a>
+          <a href="#" class="social-media-icon">
+            <i class='bx bx1-twitter'></i>
+
+          </a>
+    </div>
+
+</div>
+
+     <div class="footer-brand2">
+
+          <p>Corona recomienda el consumo responsable. Alc 4,5% Vol. GMODELO EUROPA. Todos los derechos reservados. No compartas este contenido con personas que no tengan la edad legal para consumir alcohol.</p>
+          
+        </div>
+     <div class="footer-brand3">
+    
+          <p><b>© DERECHOS RESERVADOS, DISTRIBUIDORA CORONA ATIZAPÁN</p>
+    
+         </div>
+</footer>
+
+<!--link de scrip (pagina) glider.js este es el url-->
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+
+        <!--sirve para que el menu se abra con el efecto-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+    <!--este es codigo java scrip para el menu efectos-->
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
+
+
+</body>
+
+</html>
